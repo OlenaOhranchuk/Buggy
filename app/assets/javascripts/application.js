@@ -11,9 +11,15 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery_ujs
+//= require handlebars.runtime
+//= require bootstrap
 //= require ./lib/underscore
 //= require ./lib/backbone
+//= require lib/csrf_hack
+//= require_tree ./app/templates
 //= require ./app/buggy
-//= require jquery_ujs
+
 //= require turbolinks
 //= require_tree .
+
